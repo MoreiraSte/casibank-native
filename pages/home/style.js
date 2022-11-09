@@ -5,10 +5,19 @@ const styles = StyleSheet.create({
         flex: 1,
         backgroundColor:'#cc0',
         alignItems: 'center',
-        justifyContent: 'center',
+        justifyContent: 'space-around',
+
+    },
+    containerTxt:{
+       backgroundColor:'white',
+       width:'70%',
+       borderRadius:15
     },
     texto1:{
         fontSize:50,
+        textAlign:'center',
+        color:'#CC0000',
+        fontStyle:'normal'
     },
     botao: {
         width: '60%',
